@@ -12,7 +12,7 @@ export default function Postview() {
     const [Indicators, setIndicators] = useState(true);
 
     useEffect(() => {
-        fetch("http://localhost:3004/posts")
+        fetch("https://msanjay.onrender.com")
             .then(res => { return res.json() })
             .then(data => {
                 console.log(data);
