@@ -1,8 +1,9 @@
 .header{
-    display: inline-flex;
-    background-color: antiquewhite;
+    display: flex;
+    background-color: rgb(148, 102, 171);
+    width: 100vw;
 }
-h1{
+/* h1{
     margin-right:150vh;
 }
 .topleft{
@@ -10,4 +11,14 @@ h1{
 }
 .topright{
     margin-right:15px;
+} */
+
+.icon {
+    display: flex;
+    width: 100vw;
+    font-family:'Courier New', Courier, monospace;
+    justify-content:space-around
 }
+.topright{
+    font-family: 'Times New Roman', Times, serif;
+} 
