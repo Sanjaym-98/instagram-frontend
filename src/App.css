@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  max-width: 1200px;
+  margin: auto;
+  height: 75px;
+  border: 1px solid gray ;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-bottom:2px solid black
+}
+.instaLogo{
+  height: 75px;
+  
+}
+.camara{
+  height: 75px;
+}
