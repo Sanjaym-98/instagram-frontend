@@ -1,35 +1,86 @@
-.card{ 
-    width:100%;
-    margin-right: 50px;
-    display: block;
-    text-align: center; 
+ 
+* {
+    color: rgb(224, 226, 214);
 }
-.image{
-    width:500px;
-    height: 500px;
+body{
+    background: linear-gradient(145deg, rgb(104, 99, 98) 50%, rgb(122, 83, 83));
+}
+
+.container {
+    background: linear-gradient(30deg,#d070ba 50%,#2a3080);
+    border: 1px solid gray;
+    margin: 5px auto auto;
+    max-width: 500px;
+    text-align: left;
+    
+}
+
+.namecontainer {
     display: flex;
-    margin: auto;
-    
+    flex-direction:row;
+    justify-content:space-between;
+    align-content:space-around;
 }
-.dots{
-    display: block;
-    
+
+.image{
+    width: 100%;
 }
-/* .name, .location{
-    display: block;
-    float:right;
-} */
-.heart ,.plane{
-    margin: 15px;
+
+.namecontainer {
+    height: 50px; 
+    margin: auto 5px;
 }
+
+.Section{
+    height: 20px;
+}
+
+.Section>h3{
+    margin: 0px;
+}
+
+.Section>address{
+    margin: 0px;
+}
+
+.dots {
+    margin: 10px 15px;   
+}
+
+.favicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin-bottom:0px ;
+    height: 25px;
+}
+
+.favicons>div>i {
+    margin: 10px;
+}
+
+.favicons>time {
+    margin:5px 10px ;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.favicons>div{
+    margin: 0px;
+    padding: 0px;
+}
+
 .likes{
-    display: block;
-    
+    margin: 0px 10px;
+    text-align: left;
+    font-size: 12px;
+  
 }
-.data{
-    margin-right: 0px;
+
+.discription {
+    text-align: left;
+    margin: 2px;
+    margin-left: 10px;
 }
-.descriptions{
-    width:100%;
-    margin:50px;
-}
+
