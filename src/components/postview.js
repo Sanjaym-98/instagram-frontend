@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from './header';
 import InstaCard from './instacard';
 import { Link, Route, Routes } from "react-router-dom";
-
+import "./postview.css"
 import UploadView from './uploadview';
 import { useNavigate } from "react-router-dom";
 
@@ -22,6 +22,7 @@ export default function Postview() {
             })
     }, [Indicators]);
     return (
+        <div id='postview'>
         <>
             <Header />
             <Routes>
@@ -34,5 +35,6 @@ export default function Postview() {
                 <Route path="/uploadview" element={<UploadView setIndicators={setIndicators} />} />
             </Routes>
         </>
+        </div>
     )
 }
