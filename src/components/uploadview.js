@@ -29,7 +29,7 @@ export default function UploadView({ setIndicators }) {
             })
         navigate("/postview");
     }
-    return <div>
+    return <div className="formcss">
         <Header />
         <form onSubmit={FormHandler} id="container">
             <input type={"file"} name="PostImage" id="input_file" accept=".jpg, .jpeg, .png, .pdf" required={true}></input>
